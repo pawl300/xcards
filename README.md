@@ -1,5 +1,4 @@
-# xcards
-A simple plugin to add Twitter Card meta tags to your posts
+Generate inline content previews on Twitter.com and Twitter clients by including Twitter Card HTML meta elements for individual posts.
 
 Create the Plugin File
 
