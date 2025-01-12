@@ -18,7 +18,7 @@ function add_twitter_card_meta() {
         echo '<meta name="twitter:title" content="' . esc_attr($title) . '" />' . "\n";
         echo '<meta name="twitter:description" content="' . esc_attr($description) . '" />' . "\n";
         echo '<meta name="twitter:image" content="' . esc_url($image) . '" />' . "\n";
-        echo '<meta name="twitter:site" content="@tezfiles_link" />' . "\n"; // Replace with your Twitter handle
+        echo '<meta name="twitter:site" content="@your_twitter_handle" />' . "\n"; // Replace with your Twitter handle
     }
 }
 add_action('wp_head', 'add_twitter_card_meta');
